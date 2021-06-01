@@ -26,4 +26,6 @@
     <string name="delete">Delete</string>
     <string name="error_message">Something went wrong :(</string>
     <string name="logo_app">Logo App</string>
+    <string name="power_connected">Connected</string>
+    <string name="power_disconnected">Disconnected</string>
 </resources>
