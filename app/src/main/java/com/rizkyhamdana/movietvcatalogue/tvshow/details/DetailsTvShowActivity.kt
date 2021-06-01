@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
-import androidx.lifecycle.ViewModelProvider
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.rizkyhamdana.movietvcatalogue.BuildConfig
@@ -83,7 +82,7 @@ class DetailsTvShowActivity : AppCompatActivity() {
             tvRelease.text = data.date
             tvGenre.text = data.genres
             tvOverview.text = data.overview
-            tvVoteAverage.text = data.voteAverage.toString()
+            tvVoteAverage.text = data.voteAverage
             Glide.with(applicationContext)
                 .load(posterUrl)
                 .apply(RequestOptions().placeholder(R.drawable.ic_loading).error(R.drawable.ic_error))

@@ -16,21 +16,8 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:listitem="@layout/list_tv_favorite" />
 
-    <TextView
-        android:id="@+id/tv_nodata"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/poppins_semi"
-        android:visibility="gone"
-        android:text="@string/nothing_data"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <ProgressBar
-        android:id="@+id/progressBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="gone"

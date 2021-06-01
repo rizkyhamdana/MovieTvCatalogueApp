@@ -27,7 +27,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <include
-        android:id="@+id/view_error"
+        android:id="@+id/viewError"
         android:visibility="gone"
         layout="@layout/view_error"/>
 
